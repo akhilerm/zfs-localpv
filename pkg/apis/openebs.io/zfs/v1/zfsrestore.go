@@ -37,7 +37,7 @@ type ZFSRestore struct {
 
 // ZFSRestoreSpec is the spec for a ZFSRestore resource
 type ZFSRestoreSpec struct {
-	// volume name to where restore need to be performed
+	// volume name to where restore has to be performed
 	// +kubebuilder:validation:Required
 	// +kubebuilder:validation:MinLength=1
 	VolumeName string `json:"volumeName"`
